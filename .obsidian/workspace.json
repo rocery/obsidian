@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STT/IoT/Apresiasi/Sensor Suhu Ruangan dan RH.md",
+                "file": "ToDos/!ToDos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sensor Suhu Ruangan dan RH"
+              "title": "!ToDos"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vault69/Email for Maintenance.md",
+                "file": "ToDos/!ToDos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Email for Maintenance"
+              "title": "Backlinks for !ToDos"
             }
           },
           {
@@ -155,8 +155,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,18 +170,18 @@
   },
   "active": "dc22218f85133438",
   "lastOpenFiles": [
-    "STT/IoT/Counter Hit.md",
-    "STT/IoT/Apresiasi/Sensor Suhu Ruangan dan RH.md",
-    "STT/IoT/Untitled.md",
-    "STT/IoT/Apresiasi",
     "ToDos/Cardboard Detection.md",
     "ToDos/Barcode to DXF.md",
-    "Games/Wait List.md",
-    "STT/to Do.md",
-    "STT/Maintenance.md",
-    "STT/SQL.md",
-    "ToDos/!ToDos.md",
     "ToDos/Barcode Scanner.md",
+    "STT/to Do.md",
+    "STT/SQL.md",
+    "STT/Maintenance.md",
+    "ToDos/!ToDos.md",
+    "STT/IoT/Apresiasi/Sensor Suhu Ruangan dan RH.md",
+    "STT/IoT/Counter Hit.md",
+    "STT/IoT/Untitled.md",
+    "STT/IoT/Apresiasi",
+    "Games/Wait List.md",
     "Untitled 1.base",
     "Untitled.base",
     "README.md",
