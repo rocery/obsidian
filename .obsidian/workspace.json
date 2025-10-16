@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ToDos/!ToDos.md",
+                "file": "STT/Maintenance.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "!ToDos"
+              "title": "Maintenance"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ToDos/!ToDos.md",
+                "file": "STT/Maintenance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for !ToDos"
+              "title": "Backlinks for Maintenance"
             }
           },
           {
@@ -170,16 +170,17 @@
   },
   "active": "dc22218f85133438",
   "lastOpenFiles": [
+    "STT/IoT/Untitled.md",
+    "STT/IoT/Downtime.md",
+    "STT/IoT/Counter Hit.md",
+    "STT/IoT/Apresiasi/Sensor Suhu Ruangan dan RH.md",
+    "ToDos/!ToDos.md",
     "ToDos/Cardboard Detection.md",
     "ToDos/Barcode to DXF.md",
     "ToDos/Barcode Scanner.md",
     "STT/to Do.md",
     "STT/SQL.md",
     "STT/Maintenance.md",
-    "ToDos/!ToDos.md",
-    "STT/IoT/Apresiasi/Sensor Suhu Ruangan dan RH.md",
-    "STT/IoT/Counter Hit.md",
-    "STT/IoT/Untitled.md",
     "STT/IoT/Apresiasi",
     "Games/Wait List.md",
     "Untitled 1.base",
@@ -187,7 +188,6 @@
     "README.md",
     "Games/--100.md",
     "Games/Played.md",
-    "STT/IoT/Downtime.md",
     "STT/Analisa Service Mini PC.md",
     "STT/Welcome.md",
     "ToDos",
