@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STT/Standarisasi Laptop.md",
+                "file": "STT/WO.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Standarisasi Laptop"
+              "title": "WO"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STT/Standarisasi Laptop.md",
+                "file": "STT/WO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Standarisasi Laptop"
+              "title": "Backlinks for WO"
             }
           },
           {
@@ -170,8 +170,9 @@
   },
   "active": "dc22218f85133438",
   "lastOpenFiles": [
-    "STT/Images/Roasting Infrared - Puff Twis.png",
     "STT/Standarisasi Laptop.md",
+    "STT/WO.md",
+    "STT/Images/Roasting Infrared - Puff Twis.png",
     "STT/Images/standart staffiing file 47 001_11zon.png",
     "STT/Images/Form Checklist Oven - Kerupuk.png",
     "STT/Images/Form Checklist Gorengan dan Molen Kerupuk.png",
