@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STT/IoT/Oven.md",
+                "file": "STT/IoT/Apresiasi/Sensor Suhu Ruangan dan RH.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Oven"
+              "title": "Sensor Suhu Ruangan dan RH"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STT/IoT/Oven.md",
+                "file": "STT/IoT/Apresiasi/Sensor Suhu Ruangan dan RH.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Oven"
+              "title": "Backlinks for Sensor Suhu Ruangan dan RH"
             }
           },
           {
@@ -170,8 +170,8 @@
   },
   "active": "dc22218f85133438",
   "lastOpenFiles": [
-    "STT/IoT/Tools - Component.md",
     "STT/IoT/Oven.md",
+    "STT/IoT/Tools - Component.md",
     "STT/IoT/Downtime.md",
     "STT/IoT/Apresiasi/Sensor Suhu Ruangan dan RH.md",
     "STT/to Do.md",
