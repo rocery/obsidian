@@ -1,0 +1,8 @@
+- [ ] ESP32 https://tk.tokopedia.com/ZSyBMJ3m4/ https://tk.tokopedia.com/ZSyBMk8n4/
+- [ ] MAX6675 https://tk.tokopedia.com/ZSyBrS5eL/
+- [ ] Thermocouple Type-K https://tk.tokopedia.com/ZSyBrSM7J/
+- [ ] LCD 16x2 I2C https://tk.tokopedia.com/ZSyBhkYcM/
+- [ ] LM2596 https://tk.tokopedia.com/ZSyBhmW7V/
+- [ ] Adaptor 12V https://tk.tokopedia.com/ZSykwnNjb/
+- [ ] Box x5 https://tk.tokopedia.com/ZSyBh4WAj/
+- [ ] PCB Single Side https://tk.tokopedia.com/ZSyBkNwDe/
