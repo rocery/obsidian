@@ -6,7 +6,7 @@ Terdapat 2 metode instalasi/penempatan sensor:
    [Gambar Sealer]
 
 Penggunaan Awal
-Pada saat adaptor <=12V disambungkan ke sumber listrik, alat akan otomatis menyala. Terdapat teks *debug* pada saat pertama kali alat menyala. *Debug* berisi informasi status SD Card, WiFi, dan NTP.
+Pada saat adaptor <=12V disambungkan ke sumber listrik, alat akan otomatis menyala. Terdapat teks *debug* pada saat pertama kali alat menyala. *Debug* berisi informasi status SD Card, WiFi, dan NTP. Jika tidak ada masalah pada alat, maka user akan diminta memilih produk yang akan diproses menggunakan tombol yang tersedia.
 
 Tampilan
 
