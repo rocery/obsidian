@@ -3,5 +3,7 @@
 3 Adaptor 9V: https://tk.tokopedia.com/ZSysEgHkQ/ 11.900
 2 Adaptor 5V Mesin Finger Print : https://tk.tokopedia.com/ZSysEBRHH/ 17.000
 
+Adaptor Lenovo ADLX65CLGE2A https://tk.tokopedia.com/ZSyGahKeF/
+
 ---
 **[[Oven]]**
