@@ -5,5 +5,7 @@
 
 Adaptor Lenovo ADLX65CLGE2A https://tk.tokopedia.com/ZSyGahKeF/ 105.000
 
+https://tk.tokopedia.com/ZSycJ1M3d/
+
 ---
 **[[Oven]]**
