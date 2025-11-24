@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Pembuatan Alat"
             }
+          },
+          {
+            "id": "af57284d1efa87d5",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Flow Chart_Sensor Suhu Ruang dan Kelembapan.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Flow Chart_Sensor Suhu Ruang dan Kelembapan.excalidraw"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Pembuatan Alat.md",
+                "file": "Excalidraw/Flow Chart_Sensor Suhu Ruang dan Kelembapan.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +117,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Pembuatan Alat"
+              "title": "Backlinks for Flow Chart_Sensor Suhu Ruang dan Kelembapan.excalidraw"
             }
           },
           {
@@ -165,13 +178,19 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "dc22218f85133438",
+  "active": "af57284d1efa87d5",
   "lastOpenFiles": [
-    "Untitled.base",
+    "Excalidraw/Library/UML-ER-library.excalidrawlib",
+    "Excalidraw/Library",
+    "Excalidraw/UML-ER-library.excalidrawlib",
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Pembuatan Alat.md",
+    "Excalidraw/Flow Chart_Sensor Suhu Ruang dan Kelembapan.excalidraw.md",
+    "Excalidraw",
+    "Untitled.base",
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Penggunaan Alat.md",
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Images/Diagram Elektronik.png",
     "Untitled 2.base",
@@ -207,14 +226,10 @@
     "ToDos/Barcode Scanner.md",
     "STT/IoT/Apresiasi",
     "Games/Wait List.md",
-    "Untitled 1.base",
     "README.md",
     "Games/--100.md",
     "Games/Played.md",
     "STT/Analisa Service Mini PC.md",
-    "STT/Welcome.md",
-    "ToDos",
-    "Games",
-    "IoT/Untitled.md"
+    "STT/Welcome.md"
   ]
 }
