@@ -11,8 +11,8 @@ Departemen IT Bekasi telah mengembangkan sistem **Sensor Suhu Ruangan dan Kelemb
     b. Mempercepat dan mempermudah **rekapitulasi serta analisis tren data** suhu dan kelembapan berdasarkan periode tertentu (jam, harian, atau mingguan).  
     c. Memberikan **efisiensi biaya**, karena tidak diperlukan pembelian sensor dari vendor eksternal.
 4. **Teknologi yang Digunakan:**
-    - IDE: Arduino
-    - Bahasa Pemrograman: PHP 8.3
+    - IDE: Arduino (C++)
+    - Bahasa Pemrograman: PHP 7.4
     - Basis Data: MySQL 8.0
 
 **C. Lampiran Pendukung**  

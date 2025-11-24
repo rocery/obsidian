@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Sensor Suhu Ruangan dan RH.md",
+                "file": "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Pembuatan Alat.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sensor Suhu Ruangan dan RH"
+              "title": "Pembuatan Alat"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Sensor Suhu Ruangan dan RH.md",
+                "file": "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Pembuatan Alat.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Sensor Suhu Ruangan dan RH"
+              "title": "Backlinks for Pembuatan Alat"
             }
           },
           {
@@ -168,9 +168,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "36429513c1d04373",
+  "active": "dc22218f85133438",
   "lastOpenFiles": [
+    "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Penggunaan Alat.md",
+    "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Pembuatan Alat.md",
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Images/Contoh/Berita Acara.jpg",
+    "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Sensor Suhu Ruangan dan RH.md",
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Images/Contoh/Surat Pengajuan.jpg",
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Images/Contoh/Surat Pernyataan.jpg",
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Images/Contoh/2025_10_03 4_22 PM Office Lens (3).jpg",
@@ -179,13 +182,11 @@
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Images/Contoh",
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Images",
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan",
-    "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Penggunaan Alat.md",
     "STT/IoT/Suhu dan Kelembapan.md",
     "STT/IoT/Counter Hit.md",
     "STT/IoT/Downtime.md",
     "STT/IoT/Tools - Component.md",
     "STT/IoT/Oven.md",
-    "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Sensor Suhu Ruangan dan RH.md",
     "STT/to Do.md",
     "STT/Standarisasi Laptop.md",
     "STT/WO.md",
@@ -195,7 +196,6 @@
     "STT/Images/Form Checklist Gorengan dan Molen Kerupuk.png",
     "STT/Maintenance.md",
     "STT/SQL.md",
-    "STT/Images/Roasting Infrared - Puff Twist_3_11zon.png",
     "STT/Images",
     "ToDos/!ToDos.md",
     "ToDos/Cardboard Detection.md",
