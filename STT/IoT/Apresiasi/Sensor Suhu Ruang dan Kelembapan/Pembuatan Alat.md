@@ -52,12 +52,22 @@ Buka file CH341SER.EXE, kemudian klik Install.
 ![[CH340.png]]
 CP210x
 Download file di: https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip
-Ekstrak file zip hasil downloar
+Ekstrak file zip hasil download
 Buka folder
 Instalasi file CP210xVCPInstaller_x64.exe
 
-Install Library/Board
+Install Board
+Buka Arduino IDE, klik 'File' kemudian 'Preferences', pada bagian 'Additional boards manager URLs' isi dengan link berikut.
+http://arduino.esp8266.com/stable/package_esp8266com_index.json,https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+Tutup pop up 'Preferences', 
+![[Instalasi_Board.png]]
+Klik submenu bagian kiri urutan ke-2, kemudian search boards yang akan diinstall, contoh ESP32, maka akan muncul board ESP32 kemudian klik Install.
 
+Board berguna untuk 
+
+Install Library
+![[Install_Library.png]]
+Sama seperti proses instalasi board, proses instalasi library dilakukan di submenu Library Manager, kemudian cari library yang akan diinstall lalu klik install.
 
 
 Compile/Upload
