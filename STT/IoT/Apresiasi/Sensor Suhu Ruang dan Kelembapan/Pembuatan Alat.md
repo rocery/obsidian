@@ -36,7 +36,7 @@ JST 4 Pin : Penghubung LCD ke PCB
 ![[Flow_Chart.png]]
 
 **Kode**
-
+https://github.com/rocery/arduino/blob/master/9.%20Suhu%20Ruangan/DHT21_Template/DHT21_Template.ino
 
 
 Arduino IDE
