@@ -33,15 +33,28 @@ JST 4 Pin : Penghubung LCD ke PCB
 ![[Diagram Elektronik.png]]
 
 **Flow Chart**
-
+![[Flow_Chart.png]]
 
 **Kode**
 
 
 
-Instalasi Arduino IDE
+Arduino IDE
+Instalasi
+Software Arduino IDE bisa didownload melalui: https://www.arduino.cc/en/software/, pilih sesuai dengan OS yang terinstall. Khusus untuk Windows 8 kebawah hanya bisa menginstall versi Legacy IDE (1.8.19).
+Proses instalasi bata OS Linux berbeda tiap Distro menyesusaikan package manager yang terinstall, apt install arduino (debian), yay -S adruino (arch), zypper install arduino (opensuse) atau dnf install arduino (rhel) akan menginstall versi 1.8.19. Untuk menginstall versi 2++ bisa menggunakan Flatpak. Setup: https://flatpak.org/setup/, instalasi: flatpak install flathub cc.arduino.IDE2
 
-
+Driver
+Pada OS Windows perlu dilakukan instalasi driver hardware untuk bisa digunakan, secara umum ESP32, Arduino dan Raspberry Pi menggunakan chip CH340/CH341 atau CP210x.
+CH340/CH341
+Download file di: https://cdn.sparkfun.com/assets/learn_tutorials/8/4/4/CH341SER.EXE
+Buka file CH341SER.EXE, kemudian klik Install.
+![[CH340.png]]
+CP210x
+Download file di: https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip
+Ekstrak file zip hasil downloar
+Buka folder
+Instalasi file CP210xVCPInstaller_x64.exe
 
 Install Library/Board
 
