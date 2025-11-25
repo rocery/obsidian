@@ -1,6 +1,6 @@
 Komponen Elektroik
 ESP32
-Microcontroller yang digunakan, dipilih karena memiliki module WiFi bawaan pada board. ESP32 yang beredar memiliki banyak jenis, yang digunakan pada projek ini adalah ESP32 DOIT/Dev Kit V1 30 Pin, jenis ESP lain masih bisa digunakan pada projek ini. Pin yang digunakan: I2C (SCL Pin 22, SDA Pin 21) untuk LCD, Pin 33/14 untuk DHT21, VIN, GND. Nilai maksimal input tegangan untuk ESP32 adalah 5.5V DC. Jika kelebihan tegangan, IC pada ESP32 akan overheat kemudian rusak, tidak bis gunakan.
+Microcontroller yang digunakan, dipilih karena memiliki module WiFi bawaan pada board. ESP32 yang beredar memiliki banyak jenis, yang digunakan pada projek ini adalah ESP32 DOIT/Dev Kit V1 30 Pin, jenis ESP lain masih bisa digunakan pada projek ini. Pin yang digunakan: I2C (SCL Pin 22, SDA Pin 21) untuk LCD, Pin 33/14 untuk DHT21, VIN, GND. Nilai maksimal input tegangan untuk ESP32 adalah 5.5V DC. Jika kelebihan tegangan, IC pada ESP32 akan overheat kemudian rusak, tidak bisa gunakan.
 
 DHT21 AM2301
 Sensor DHT21 merupakan sensor Suhu dan Kelembapan dengan output pin digital. Memiliki 3 pin yang perlu dihubungkan ke ESP32, yaitu: VCC (merah) dihubungkan ke VIN, GND (hitam) dihubungkan ke pin GND, dan pin DATA (kuning) dihubungkan ke pin 14/33
@@ -63,14 +63,14 @@ Tutup pop up 'Preferences',
 ![[Instalasi_Board.png]]
 Klik submenu bagian kiri urutan ke-2, kemudian search boards yang akan diinstall, contoh ESP32, maka akan muncul board ESP32 kemudian klik Install.
 
-Board berguna untuk 
+Board berisi konfigurasi-konfigurasi dari microcontroller yang berbeda untuk dikenali Arduino IDE. Setiap pabrikan memiliki arsitektur dan cara pengkodean yang berbeda sehingga diperlukan board sebelum bisa digunakan.
 
 Install Library
 ![[Install_Library.png]]
 Sama seperti proses instalasi board, proses instalasi library dilakukan di submenu Library Manager, kemudian cari library yang akan diinstall lalu klik install.
 
-
 Compile/Upload
+
 
 
 
