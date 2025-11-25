@@ -91,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 217.5
+    "width": 217.5,
+    "collapsed": true
   },
   "right": {
     "id": "1e3f0e19091e5aee",
@@ -185,7 +186,6 @@
   "active": "af57284d1efa87d5",
   "lastOpenFiles": [
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Pembuatan Alat.md",
-    "STT/IoT/Counter Hit.md",
     "Excalidraw/Flow Chart_Sensor Suhu Ruang dan Kelembapan.excalidraw.md",
     "Excalidraw/Library/flow-chart-symbols.excalidrawlib",
     "Excalidraw/Library/UML-ER-library.excalidrawlib",
@@ -211,6 +211,7 @@
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Images",
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan",
     "STT/IoT/Suhu dan Kelembapan.md",
+    "STT/IoT/Counter Hit.md",
     "STT/IoT/Downtime.md",
     "STT/IoT/Tools - Component.md",
     "STT/IoT/Oven.md",
