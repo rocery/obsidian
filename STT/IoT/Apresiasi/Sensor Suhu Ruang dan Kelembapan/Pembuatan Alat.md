@@ -1,5 +1,5 @@
-Komponen Elektroik
-ESP32
+**Komponen Elektroik**
+**ESP32**
 Mikrokontroler yang digunakan dalam proyek ini adalah **ESP32**, dipilih karena telah dilengkapi modul WiFi terintegrasi pada board. Terdapat banyak varian ESP32 di pasaran; model yang digunakan pada proyek ini adalah **ESP32 DOIT/Dev Kit V1 (30 pin)**. Meskipun demikian, varian ESP32 lainnya secara umum tetap kompatibel untuk implementasi serupa.
 Konfigurasi pin yang digunakan adalah sebagai berikut:
 - **I2C:** SCL pada pin **22** dan SDA pada pin **21** untuk koneksi LCD
@@ -7,7 +7,7 @@ Konfigurasi pin yang digunakan adalah sebagai berikut:
 - **VIN** dan **GND** untuk suplai daya
 ESP32 memiliki batas maksimum tegangan input sebesar **5.5 V DC**. Pemberian tegangan melebihi batas tersebut akan menyebabkan komponen internal mengalami panas berlebih (overheat) dan berpotensi merusak IC, sehingga perangkat tidak dapat digunakan kembali.
 
-DHT21 AM2301
+**DHT21 AM2301**
 DHT21 atau AM2301 merupakan sensor suhu dan kelembapan dengan keluaran berupa sinyal digital. Sensor ini memiliki tiga pin yang perlu dihubungkan ke ESP32, yaitu:
 - **VCC (merah)** dihubungkan ke **VIN**
 - **GND (hitam)** dihubungkan ke **GND**
