@@ -28,4 +28,17 @@ Install Library
 ![[Install_Library.png]]
 Sama seperti proses instalasi board, proses instalasi library dilakukan di submenu Library Manager, kemudian cari library yang akan diinstall lalu klik install.
 
-Compile/Upload
+Port
+Setiap Microcontroller memiliki port yang berbeda, untuk melakukan pengaturan port pilih Tools => Port => Pilih port yang sesuai. Pada umumnya nama port diawali dengan kata USB.
+
+Board
+Untuk memilih board klik Tools => Board => pilih merk (misal esp32) => pilih microcontroller yang sesuai. Board ini harus sesuai dengan yang digunakan, jika berbeda kode tetap bisa di Upload tapi akan ada kesalahan logika kode.
+
+
+Verify
+Verify digunakan untuk mendeteksi kesalahan syntax pada kode. ika ada kesalahan penulisan, pemanggilan fungsi yang tidak dikenal, variabel yang tidak dideklarasikan, atau library yang hilang, proses ini akan menampilkan pesan error.
+
+
+
+Upload
+Upload pada Arduino IDE adalah proses untuk mengirimkan program (sketch) yang sudah berhasil dikompilasi/verify ke mikrokontroler.
