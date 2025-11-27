@@ -1,7 +1,7 @@
 Arduino IDE
 Instalasi
 Software Arduino IDE bisa didownload melalui: https://www.arduino.cc/en/software/, pilih sesuai dengan OS yang terinstall. Khusus untuk Windows 8 kebawah hanya bisa menginstall versi Legacy IDE (1.8.19).
-Proses instalasi bata OS Linux berbeda tiap Distro menyesusaikan package manager yang terinstall, apt install arduino (debian), yay -S adruino (arch), zypper install arduino (opensuse) atau dnf install arduino (rhel) akan menginstall versi 1.8.19. Untuk menginstall versi 2++ bisa menggunakan Flatpak. Setup: https://flatpak.org/setup/, instalasi: flatpak install flathub cc.arduino.IDE2
+Proses instalasi pada OS Linux berbeda tiap Distro menyesusaikan package manager yang terinstall, apt install arduino (debian), yay -S adruino (arch), zypper install arduino (opensuse) atau dnf install arduino (rhel) akan menginstall versi 1.8.19. Untuk menginstall versi 2++ bisa menggunakan Flatpak. Setup: https://flatpak.org/setup/, instalasi: flatpak install flathub cc.arduino.IDE2
 
 Driver
 Pada OS Windows perlu dilakukan instalasi driver hardware untuk bisa digunakan, secara umum ESP32, Arduino dan Raspberry Pi menggunakan chip CH340/CH341 atau CP210x.
@@ -14,6 +14,9 @@ Download file di: https://www.silabs.com/documents/public/software/CP210x_Window
 Ekstrak file zip hasil download
 Buka folder
 Instalasi file CP210xVCPInstaller_x64.exe
+
+Untuk os linux, driver otomatis terinstall. Jika program tidak bisa diproses Upload jalankan script ini pada terminal: 
+sudo usermod -G dialout $USER
 
 Install Board
 Buka Arduino IDE, klik 'File' kemudian 'Preferences', pada bagian 'Additional boards manager URLs' isi dengan link berikut.
@@ -34,11 +37,10 @@ Setiap Microcontroller memiliki port yang berbeda, untuk melakukan pengaturan po
 Board
 Untuk memilih board klik Tools => Board => pilih merk (misal esp32) => pilih microcontroller yang sesuai. Board ini harus sesuai dengan yang digunakan, jika berbeda kode tetap bisa di Upload tapi akan ada kesalahan logika kode.
 
-
 Verify
 Verify digunakan untuk mendeteksi kesalahan syntax pada kode. ika ada kesalahan penulisan, pemanggilan fungsi yang tidak dikenal, variabel yang tidak dideklarasikan, atau library yang hilang, proses ini akan menampilkan pesan error.
-
-
+![[Verify.png]]
 
 Upload
 Upload pada Arduino IDE adalah proses untuk mengirimkan program (sketch) yang sudah berhasil dikompilasi/verify ke mikrokontroler.
+![[Upload.png]]
