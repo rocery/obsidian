@@ -12,7 +12,6 @@ DHT21 atau AM2301 merupakan sensor suhu dan kelembapan dengan keluaran berupa si
 - **VCC (merah)** dihubungkan ke **VIN**
 - **GND (hitam)** dihubungkan ke **GND**
 - **DATA (kuning)** dihubungkan ke pin **14** atau **33**
-
 Spesifikasi teknis sensor:
 - **Tegangan input:** 3.5 V – 5 V
 - **Rentang kelembapan:** 0 – 100% RH
@@ -20,25 +19,31 @@ Spesifikasi teknis sensor:
 - **Akurasi:** ±3% RH dan ±0.5°C
 Sensor ini digunakan untuk memperoleh data suhu dan kelembapan secara real-time dan dapat diintegrasikan secara langsung dengan ESP32 melalui pin digital.
 
-LCD 16x2 I2C
-LCD 16x2 dapat terdiri dari 16 kolom dan 2 baris karakter. Membutuhkan input 5V. Pin SCL di LCD dihubungkan ke pin SCL di ESP32 dan pin SDA dihubungkan ke pin SDA ESP32.
+**LCD 16×2 I2C**  
+LCD 16×2 merupakan modul tampilan yang mampu menampilkan 16 karakter per baris pada dua baris. Modul ini menggunakan antarmuka **I2C**, sehingga hanya memerlukan dua jalur komunikasi untuk terhubung dengan ESP32. Modul LCD membutuhkan suplai daya sebesar **5 V**.
+Konfigurasi pin yang digunakan:
+- **SCL** pada modul LCD dihubungkan ke pin **SCL (pin 22)** pada ESP32
+- **SDA** pada modul LCD dihubungkan ke pin **SDA (pin 21)** pada ESP32
+Dengan antarmuka I2C, penggunaan jumlah pin dapat diminimalkan sehingga integrasi dengan komponen lain menjadi lebih efisien.
 
-LM2596
-Digunakan untuk menurunkan tegangan dari adaptor, contoh menurunkan tegangan dari 12V ke 5V DC. Nilai hasil penuruan tegangan dikontrol oleh trimpod (baut emas) pada board LM2596. 
+**LM2596**  
+LM2596 merupakan modul **buck converter** yang digunakan untuk menurunkan tegangan DC dari sumber daya yang lebih tinggi ke tegangan yang lebih rendah dan stabil. Contoh penggunaan umumnya adalah menurunkan tegangan dari **12 V DC** menjadi **5 V DC** untuk keperluan rangkaian elektronik.
+Besaran tegangan keluaran dapat diatur melalui **trimpot** (potensiometer kecil berwarna emas) yang tersedia pada modul LM2596. Pengaturan ini memungkinkan penyesuaian tegangan sesuai kebutuhan perangkat yang akan disuplai.
 
-PCB Dot Matrix
-Tempat menghubungan antar komponen elektronik. Proses penghubungan menggunakan solder agar lebih kuat.
+**PCB Dot Matrix**  
+PCB Dot Matrix berfungsi sebagai media untuk menghubungkan komponen elektronik dalam rangkaian. Proses penyambungan antar komponen dilakukan melalui penyolderan guna memastikan kekuatan dan keandalan koneksi.
 
-Adaptor 12V 1A
-Sumber arus listrik. Penggunaan adaptor tidak harus 12V, tapi setidaknya 5V sesuai kebutuhan ESP32 dan komponen listrik lainnya. Untuk nilai arus direkomendasikan minimal 1A.
+**Adaptor 12 V 1 A**  
+Adaptor ini berfungsi sebagai sumber daya utama bagi rangkaian. Meskipun nilai tegangan tidak harus 12 V, sumber harus menyediakan **minimal 5 V DC** untuk memenuhi kebutuhan ESP32 dan komponen pendukung lainnya. Arus keluaran yang direkomendasikan adalah **minimum 1 A** agar suplai daya tetap stabil.
 
-Box x4
-Box dengan ukuran 12.5CM x 8.5CM x 5CM
+**Box x4**  
+Menggunakan kotak berukuran **12.5 cm × 8.5 cm × 5 cm** sebagai wadah untuk menempatkan rangkaian dan komponen secara terorganisir serta melindunginya dari faktor luar.
 
-Kabel JST 2, 3 dan 4 Pin
-JST 2 Pin : Penghubung dari LM2596 ke PCB
-JST 3 Pin : Penghubung DHT21 ke PCB
-JST 4 Pin : Penghubung LCD ke PCB
+**Kabel JST 2, 3, dan 4 Pin**  
+Jenis konektor JST yang digunakan dalam rangkaian adalah sebagai berikut:
+- **JST 2 pin**: penghubung dari modul **LM2596** ke **PCB**
+- **JST 3 pin**: penghubung **DHT21** ke **PCB**
+- **JST 4 pin**: penghubung **LCD** ke **PCB**
 
 **Diagram Elektronik**
 ![[Diagram Elektronik.png]]
