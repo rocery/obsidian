@@ -1,13 +1,24 @@
 Komponen Elektroik
 ESP32
-Microcontroller yang digunakan, dipilih karena memiliki module WiFi bawaan pada board. ESP32 yang beredar memiliki banyak jenis, yang digunakan pada projek ini adalah ESP32 DOIT/Dev Kit V1 30 Pin, jenis ESP lain masih bisa digunakan pada projek ini. Pin yang digunakan: I2C (SCL Pin 22, SDA Pin 21) untuk LCD, Pin 33/14 untuk DHT21, VIN, GND. Nilai maksimal input tegangan untuk ESP32 adalah 5.5V DC. Jika kelebihan tegangan, IC pada ESP32 akan overheat kemudian rusak, tidak bisa gunakan.
+Mikrokontroler yang digunakan dalam proyek ini adalah **ESP32**, dipilih karena telah dilengkapi modul WiFi terintegrasi pada board. Terdapat banyak varian ESP32 di pasaran; model yang digunakan pada proyek ini adalah **ESP32 DOIT/Dev Kit V1 (30 pin)**. Meskipun demikian, varian ESP32 lainnya secara umum tetap kompatibel untuk implementasi serupa.
+Konfigurasi pin yang digunakan adalah sebagai berikut:
+- **I2C:** SCL pada pin **22** dan SDA pada pin **21** untuk koneksi LCD
+- **DHT21:** pin **33** atau **14**
+- **VIN** dan **GND** untuk suplai daya
+ESP32 memiliki batas maksimum tegangan input sebesar **5.5 V DC**. Pemberian tegangan melebihi batas tersebut akan menyebabkan komponen internal mengalami panas berlebih (overheat) dan berpotensi merusak IC, sehingga perangkat tidak dapat digunakan kembali.
 
 DHT21 AM2301
-Sensor DHT21 merupakan sensor Suhu dan Kelembapan dengan output pin digital. Memiliki 3 pin yang perlu dihubungkan ke ESP32, yaitu: VCC (merah) dihubungkan ke VIN, GND (hitam) dihubungkan ke pin GND, dan pin DATA (kuning) dihubungkan ke pin 14/33
-Input: 3.5V - 5V
-Humidity: 0 - 100%
-Temperature: -40°C - 80°C
-Accuracy: ±3% RH, ±0.5°C
+DHT21 atau AM2301 merupakan sensor suhu dan kelembapan dengan keluaran berupa sinyal digital. Sensor ini memiliki tiga pin yang perlu dihubungkan ke ESP32, yaitu:
+- **VCC (merah)** dihubungkan ke **VIN**
+- **GND (hitam)** dihubungkan ke **GND**
+- **DATA (kuning)** dihubungkan ke pin **14** atau **33**
+
+Spesifikasi teknis sensor:
+- **Tegangan input:** 3.5 V – 5 V
+- **Rentang kelembapan:** 0 – 100% RH
+- **Rentang suhu:** −40°C – 80°C
+- **Akurasi:** ±3% RH dan ±0.5°C
+Sensor ini digunakan untuk memperoleh data suhu dan kelembapan secara real-time dan dapat diintegrasikan secara langsung dengan ESP32 melalui pin digital.
 
 LCD 16x2 I2C
 LCD 16x2 dapat terdiri dari 16 kolom dan 2 baris karakter. Membutuhkan input 5V. Pin SCL di LCD dihubungkan ke pin SCL di ESP32 dan pin SDA dihubungkan ke pin SDA ESP32.

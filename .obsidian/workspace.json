@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Penggunaan Arduino IDE.md",
+                "file": "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Pembuatan Alat.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Penggunaan Arduino IDE"
+              "title": "Pembuatan Alat"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Penggunaan Arduino IDE.md",
+                "file": "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Pembuatan Alat.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Penggunaan Arduino IDE"
+              "title": "Backlinks for Pembuatan Alat"
             }
           },
           {
@@ -171,13 +171,14 @@
   },
   "active": "dc22218f85133438",
   "lastOpenFiles": [
+    "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Penggunaan Alat.md",
+    "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Penggunaan Arduino IDE.md",
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Images/Upload.png",
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Images/Screenshot_20251127_112725.png",
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Images/Verify.png",
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Images/Screenshot_20251127_112642.png",
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Pembuatan Alat.md",
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Sensor Suhu Ruangan dan RH.md",
-    "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Penggunaan Arduino IDE.md",
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Images/Install_Library.png",
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Images/Instalasi_Board.png",
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Screenshot_20251125_160558.png",
@@ -193,10 +194,8 @@
     "Excalidraw/Library",
     "Excalidraw/UML-ER-library.excalidrawlib",
     "Excalidraw",
-    "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Penggunaan Alat.md",
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Images/Diagram Elektronik.png",
     "Untitled.canvas",
-    "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Images/Diagram Elektroik.png",
     "Untitled.md",
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Images/Contoh",
     "STT/IoT/Suhu dan Kelembapan.md",
