@@ -30,24 +30,23 @@ Buka Arduino IDE, pilih menu **File → Preferences**. Pada bagian **Additional 
 http://arduino.esp8266.com/stable/package_esp8266com_index.json,https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
 Setelah selesai, tutup jendela **Preferences**.
 ![[Instalasi_Board.png]]
-Klik submenu bagian kiri urutan ke-2, kemudian search boards yang akan diinstall, contoh ESP32, maka akan muncul board ESP32 kemudian klik Install.
+Klik submenu di bagian kiri urutan kedua, kemudian cari _board_ yang ingin dipasang. Misalnya, ketik **ESP32**, maka daftar _board_ ESP32 akan muncul. Pilih _board_ tersebut lalu klik **Install** untuk memulai instalasi.
+_Board_ berisi konfigurasi yang diperlukan agar Arduino IDE dapat mengenali dan berkomunikasi dengan mikrokontroler. Setiap pabrikan memiliki arsitektur dan metode pemrograman yang berbeda, sehingga instalasi _board_ diperlukan sebelum perangkat dapat digunakan.
 
-Board berisi konfigurasi-konfigurasi dari microcontroller yang berbeda untuk dikenali Arduino IDE. Setiap pabrikan memiliki arsitektur dan cara pengkodean yang berbeda sehingga diperlukan board sebelum bisa digunakan.
-
-Install Library
+**Install Library**
 ![[Install_Library.png]]
-Sama seperti proses instalasi board, proses instalasi library dilakukan di submenu Library Manager, kemudian cari library yang akan diinstall lalu klik install.
+Instalasi _library_ dilakukan dengan cara yang serupa dengan instalasi _board_. Buka **Library Manager**, kemudian cari _library_ yang diperlukan dan klik **Install**.
 
-Port
-Setiap Microcontroller memiliki port yang berbeda, untuk melakukan pengaturan port pilih Tools => Port => Pilih port yang sesuai. Pada umumnya nama port diawali dengan kata USB.
+**Port**  
+Setiap mikrokontroler menggunakan port yang berbeda. Untuk mengatur port, pilih **Tools → Port**, lalu pilih port yang sesuai. Umumnya nama port diawali dengan kata _USB_.
 
-Board
-Untuk memilih board klik Tools => Board => pilih merk (misal esp32) => pilih microcontroller yang sesuai. Board ini harus sesuai dengan yang digunakan, jika berbeda kode tetap bisa di Upload tapi akan ada kesalahan logika kode.
+**Board**  
+Untuk memilih _board_, masuk ke menu **Tools → Board**, pilih merek (misalnya ESP32), kemudian pilih jenis mikrokontroler yang digunakan. _Board_ harus dipilih sesuai dengan perangkat yang digunakan. Jika berbeda, proses _upload_ mungkin tetap berjalan, tetapi dapat menyebabkan kesalahan logika pada program.
 
-Verify
-Verify digunakan untuk mendeteksi kesalahan syntax pada kode. ika ada kesalahan penulisan, pemanggilan fungsi yang tidak dikenal, variabel yang tidak dideklarasikan, atau library yang hilang, proses ini akan menampilkan pesan error.
+**Verify**  
+Fitur _Verify_ berfungsi untuk mendeteksi kesalahan _syntax_ pada kode. Jika terdapat kesalahan penulisan, pemanggilan fungsi yang tidak dikenal, variabel yang belum dideklarasikan, atau _library_ yang tidak ditemukan, proses ini akan menampilkan pesan kesalahan (_error_).
 ![[Verify.png]]
 
-Upload
-Upload pada Arduino IDE adalah proses untuk mengirimkan program (sketch) yang sudah berhasil dikompilasi/verify ke mikrokontroler.
+**Upload**  
+_Upload_ pada Arduino IDE merupakan proses pengiriman program (_sketch_) yang telah berhasil dikompilasi atau melalui tahap _verify_ ke dalam mikrokontroler, sehingga perangkat dapat menjalankan instruksi yang telah dituliskan.
 ![[Upload.png]]
