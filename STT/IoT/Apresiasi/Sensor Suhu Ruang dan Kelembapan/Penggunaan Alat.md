@@ -5,10 +5,13 @@ Penggunaan Awal
 Saat adaptor ≤12V dihubungkan ke sumber listrik, perangkat akan menyala secara otomatis. Pada proses awal, akan muncul teks _debug_ yang menampilkan informasi mengenai status WiFi dan NTP (waktu). Jika tidak ditemukan kendala pada perangkat, informasi WiFi yang terhubung dan waktu akan ditampilkan di LCD.
 
 Tampilan
+Terdapat 4 informasi yang tersedia: suhu (T), kelembapan (H), wifi dan waktu.
 
+![[Tampilan Depan.jpeg]]
 
+Jika terjadi error pada suhu atau kelembapan, tampilan di lcd akan berubah menjadi nan. Sedangkan jika terjadi error pada wifi atau waktu maka tampilan di lcd untuk bagian wifi  dan waktu menjadi error.
 
-
+Alat memiliki pengaturan untuk melakukan otomatisasi restart jika terjadi error beberapa kali, hal ini memungkinkan alat berjalan dari awal. Jika error masih terjadi perlu adanya proses pemutusan arus listrik sementara.
 
 
 
