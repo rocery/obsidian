@@ -1,6 +1,11 @@
 Instalasi Alat
 Alat diinstall/dipasang pada tembok, kayu, besi atau media sejenis. Alat ditempelkan menggunakan baut fisher, vhb tape atau sktup kayu.
 
+Penggunaan Awal
+Saat adaptor ≤12V dihubungkan ke sumber listrik, perangkat akan menyala secara otomatis. Pada proses awal, akan muncul teks _debug_ yang menampilkan informasi mengenai status WiFi dan NTP (waktu). Jika tidak ditemukan kendala pada perangkat, informasi WiFi yang terhubung dan waktu akan ditampilkan di LCD.
+
+Tampilan
+
 
 
 
