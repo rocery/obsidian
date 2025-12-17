@@ -1,3 +1,16 @@
+Instalasi Alat
+Alat diinstall/dipasang pada tembok, kayu, besi atau media sejenis. Alat ditempelkan menggunakan baut fisher, vhb tape atau sktup kayu.
+
+
+
+
+
+
+
+
+
+
+
 **Instalasi**
 Terdapat 2 metode instalasi/penempatan sensor:
 1. Conveyor Berjalan

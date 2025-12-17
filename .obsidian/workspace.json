@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Pembuatan Alat.md",
+                "file": "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Penggunaan Alat.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pembuatan Alat"
+              "title": "Penggunaan Alat"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Pembuatan Alat.md",
+                "file": "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Penggunaan Alat.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Pembuatan Alat"
+              "title": "Backlinks for Penggunaan Alat"
             }
           },
           {
@@ -171,33 +171,34 @@
   },
   "active": "dc22218f85133438",
   "lastOpenFiles": [
+    "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Excample/TOTALAN - SURAT PERNYATAAN.pdf",
+    "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Excample/TOTALAN - SURAT PERNYATAAN.pdf.part",
+    "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Excample/TOTALAN - MANUAL BOOK USER.pdf",
+    "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Excample/TOTALAN - MANUAL BOOK USER.pdf.part",
+    "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Excample/TOTALAN - MANUAL BOOK DEVE .pdf",
+    "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Excample/TOTALAN - MANUAL BOOK DEVE .pdf.part",
+    "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Excample/TOTALAN - BA.pdf",
+    "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Excample/TOTALAN - BA.pdf.part",
+    "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Excample",
+    "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Sensor Suhu Ruangan dan RH.md",
+    "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Penggunaan Arduino IDE.md",
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Penggunaan Alat.md",
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Pembuatan Alat.md",
-    "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Penggunaan Arduino IDE.md",
-    "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Sensor Suhu Ruangan dan RH.md",
+    "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Images/Instalasi_Board.png",
+    "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Images/Flow_Chart.png",
+    "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Images/Diagram Elektronik.png",
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Images/Upload.png",
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Images/Screenshot_20251127_112725.png",
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Images/Verify.png",
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Images/Screenshot_20251127_112642.png",
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Images/Install_Library.png",
-    "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Images/Instalasi_Board.png",
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Screenshot_20251125_160558.png",
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Images/CH340.png",
     "Untitled 3.base",
     "Untitled 2.base",
-    "Untitled 1.base",
-    "Untitled.base",
     "Excalidraw/Flow Chart_Sensor Suhu Ruang dan Kelembapan.excalidraw.md",
-    "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Images/Flow_Chart.png",
-    "Excalidraw/Library/flow-chart-symbols.excalidrawlib",
-    "Excalidraw/Library/UML-ER-library.excalidrawlib",
-    "Excalidraw/Library",
-    "Excalidraw/UML-ER-library.excalidrawlib",
-    "Excalidraw",
-    "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Images/Diagram Elektronik.png",
     "Untitled.canvas",
     "Untitled.md",
-    "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Images/Contoh",
     "STT/IoT/Suhu dan Kelembapan.md",
     "STT/IoT/Counter Hit.md",
     "STT/IoT/Downtime.md",
