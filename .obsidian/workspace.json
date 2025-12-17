@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Penggunaan Alat.md",
+                "file": "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Sensor Suhu Ruangan dan RH.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Penggunaan Alat"
+              "title": "Sensor Suhu Ruangan dan RH"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Penggunaan Alat.md",
+                "file": "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Sensor Suhu Ruangan dan RH.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Penggunaan Alat"
+              "title": "Backlinks for Sensor Suhu Ruangan dan RH"
             }
           },
           {
@@ -171,6 +171,7 @@
   },
   "active": "dc22218f85133438",
   "lastOpenFiles": [
+    "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Penggunaan Arduino IDE.md",
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Pembuatan Alat.md",
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Penggunaan Alat.md",
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Images/Tampilan Depan.jpeg",
@@ -194,7 +195,6 @@
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Excample/TOTALAN - MANUAL BOOK USER.pdf",
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Excample/TOTALAN - MANUAL BOOK USER.pdf.part",
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Sensor Suhu Ruangan dan RH.md",
-    "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Penggunaan Arduino IDE.md",
     "Excalidraw/Flow Chart_Sensor Suhu Ruang dan Kelembapan.excalidraw.md",
     "Untitled.canvas",
     "Untitled.md",
