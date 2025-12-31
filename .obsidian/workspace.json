@@ -11,17 +11,28 @@
             "id": "dc22218f85133438",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Sensor Suhu Ruangan dan RH.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Flow Chart_Sensor Suhu Ruang dan Kelembapan.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "Sensor Suhu Ruangan dan RH"
+              "icon": "excalidraw-icon",
+              "title": "Flow Chart_Sensor Suhu Ruang dan Kelembapan.excalidraw"
+            }
+          },
+          {
+            "id": "8d84741c98646c50",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-12-31 13.25.28.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-12-31 13.25.28.excalidraw"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.5
+    "width": 267.5
   },
   "right": {
     "id": "1e3f0e19091e5aee",
@@ -94,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Sensor Suhu Ruangan dan RH.md",
+                "file": "Excalidraw/Drawing 2025-12-31 13.25.28.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +115,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Sensor Suhu Ruangan dan RH"
+              "title": "Backlinks for Drawing 2025-12-31 13.25.28.excalidraw"
             }
           },
           {
@@ -169,8 +180,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "dc22218f85133438",
+  "active": "8d84741c98646c50",
   "lastOpenFiles": [
+    "Excalidraw/Flow Chart_Sensor Suhu Ruang dan Kelembapan.excalidraw.md",
+    "Excalidraw/Drawing 2025-12-31 13.25.28.excalidraw.md",
+    "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Sensor Suhu Ruangan dan RH.md",
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Penggunaan Arduino IDE.md",
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Pembuatan Alat.md",
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Penggunaan Alat.md",
@@ -194,8 +208,6 @@
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Excample/TOTALAN - SURAT PERNYATAAN.pdf.part",
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Excample/TOTALAN - MANUAL BOOK USER.pdf",
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Excample/TOTALAN - MANUAL BOOK USER.pdf.part",
-    "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Sensor Suhu Ruangan dan RH.md",
-    "Excalidraw/Flow Chart_Sensor Suhu Ruang dan Kelembapan.excalidraw.md",
     "Untitled.canvas",
     "Untitled.md",
     "STT/IoT/Suhu dan Kelembapan.md",
