@@ -23,12 +23,14 @@
             "id": "8d84741c98646c50",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Flow Chart_Sensor Suhu Ruang dan Kelembapan.excalidraw.md"
+                "file": "ToDos/Cardboard Detection.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Flow Chart_Sensor Suhu Ruang dan Kelembapan.excalidraw"
+              "icon": "lucide-file",
+              "title": "Cardboard Detection"
             }
           }
         ],
@@ -105,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Flow Chart_Sensor Suhu Ruang dan Kelembapan.excalidraw.md",
+                "file": "ToDos/Cardboard Detection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +117,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Flow Chart_Sensor Suhu Ruang dan Kelembapan.excalidraw"
+              "title": "Backlinks for Cardboard Detection"
             }
           },
           {
@@ -180,10 +182,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "36429513c1d04373",
+  "active": "8d84741c98646c50",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2025-12-31 13.25.28.excalidraw.md",
+    "ToDos/!ToDos.md",
     "Excalidraw/Flow Chart_Sensor Suhu Ruang dan Kelembapan.excalidraw.md",
+    "Excalidraw/Drawing 2025-12-31 13.25.28.excalidraw.md",
     "Games/STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Sensor Suhu Ruangan dan RH.md",
     "Games/STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Penggunaan Arduino IDE.md",
     "Games/STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Pembuatan Alat.md",
@@ -220,7 +223,6 @@
     "Games/STT/WO.md",
     "Games/STT/Maintenance.md",
     "Games/STT/SQL.md",
-    "ToDos/!ToDos.md",
     "ToDos/Cardboard Detection.md",
     "ToDos/Barcode to DXF.md",
     "ToDos/Barcode Scanner.md",
