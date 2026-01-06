@@ -117,3 +117,11 @@ Check kagle/collabs
 
 new dataset:
 https://universe.roboflow.com/pack-ikr0x/pack-45606/dataset/1
+
+!pip install roboflow
+
+from roboflow import Roboflow
+rf = Roboflow(api_key="hofwlCVIHMg0XAnlQWv6")
+project = rf.workspace("pack-ikr0x").project("pack-45606")
+version = project.version(1)
+dataset = version.download("yolov5")
