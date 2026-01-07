@@ -125,3 +125,15 @@ rf = Roboflow(api_key="hofwlCVIHMg0XAnlQWv6")
 project = rf.workspace("pack-ikr0x").project("pack-45606")
 version = project.version(1)
 dataset = version.download("yolov5")
+
+
+!python export.py  --weights runs/train/exp/weights/best.pt --img 640 --batch 1 --device cpu --include onnx --simplify
+
+!pip install roboflow
+
+from roboflow import Roboflow
+rf = Roboflow(api_key="hofwlCVIHMg0XAnlQWv6")
+project = rf.workspace("pack-ikr0x").project("pack-45606")
+version = project.version(1)
+dataset = version.download("yolov8")
+                

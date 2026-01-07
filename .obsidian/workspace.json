@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dc22218f85133438",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Flow Chart_Sensor Suhu Ruang dan Kelembapan.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Flow Chart_Sensor Suhu Ruang dan Kelembapan.excalidraw"
-            }
-          },
-          {
             "id": "8d84741c98646c50",
             "type": "leaf",
             "state": {
@@ -33,8 +21,7 @@
               "title": "Cardboard Detection"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
