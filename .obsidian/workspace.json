@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9f7506f3e37de2ee",
+        "id": "ba1a8985e462c281",
         "type": "tabs",
         "children": [
           {
-            "id": "8d84741c98646c50",
+            "id": "b36b4ae741692b2b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -35,19 +35,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "36429513c1d04373",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
-            }
-          },
-          {
             "id": "eb5aebe3c48e0532",
             "type": "leaf",
             "state": {
@@ -73,8 +60,22 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
+          },
+          {
+            "id": "5a6af1fab69ffa24",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -169,9 +170,16 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "8d84741c98646c50",
+  "active": "b36b4ae741692b2b",
   "lastOpenFiles": [
+    "Untitled 2.base",
+    "2026-01-12.md",
+    "Excalidraw/Drawing 2026-01-12 15.28.03.excalidraw.md",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "Untitled 1.base",
     "ToDos/Cardboard Detection.md",
+    "Untitled.base",
     "ToDos/!ToDos.md",
     "Excalidraw/Flow Chart_Sensor Suhu Ruang dan Kelembapan.excalidraw.md",
     "Excalidraw/Drawing 2025-12-31 13.25.28.excalidraw.md",
@@ -197,9 +205,6 @@
     "Games/STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Images/Instalasi",
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Excample/TOTALAN - SURAT PERNYATAAN.pdf",
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Excample/TOTALAN - SURAT PERNYATAAN.pdf.part",
-    "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Excample/TOTALAN - MANUAL BOOK USER.pdf",
-    "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Excample/TOTALAN - MANUAL BOOK USER.pdf.part",
-    "Untitled.canvas",
     "Untitled.md",
     "Games/STT/IoT/Suhu dan Kelembapan.md",
     "Games/STT/IoT/Counter Hit.md",
@@ -214,9 +219,6 @@
     "ToDos/Barcode to DXF.md",
     "ToDos/Barcode Scanner.md",
     "Games/Wait List.md",
-    "README.md",
-    "Games/--100.md",
-    "Games/Played.md",
-    "STT/Analisa Service Mini PC.md"
+    "README.md"
   ]
 }

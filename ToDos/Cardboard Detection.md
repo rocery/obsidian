@@ -136,4 +136,14 @@ rf = Roboflow(api_key="hofwlCVIHMg0XAnlQWv6")
 project = rf.workspace("pack-ikr0x").project("pack-45606")
 version = project.version(1)
 dataset = version.download("yolov8")
+
+
+!pip install roboflow
+
+from roboflow import Roboflow
+rf = Roboflow(api_key="hofwlCVIHMg0XAnlQWv6")
+project = rf.workspace("pack-ikr0x").project("pack-45606")
+version = project.version(3)
+dataset = version.download("yolov11")
+                
                 
