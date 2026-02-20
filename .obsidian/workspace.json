@@ -143,16 +143,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "vault69/Email for Maintenance.md",
+                "file": "ToDos/Cardboard Detection.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Email for Maintenance"
+              "title": "Outline of Cardboard Detection"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -170,7 +171,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b36b4ae741692b2b",
+  "active": "755e32aca445386e",
   "lastOpenFiles": [
     "Untitled 2.base",
     "2026-01-12.md",
