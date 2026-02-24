@@ -146,4 +146,8 @@ project = rf.workspace("pack-ikr0x").project("pack-45606")
 version = project.version(3)
 dataset = version.download("yolov11")
                 
-                
+
+Algorithm
+1. Drawing bounding box based on production line (must bigger than carton)
+2. Detect 'carton' only inside bounding box
+3. If 'carton' detected, +1 for related production line
