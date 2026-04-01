@@ -151,3 +151,32 @@ Algorithm
 1. Drawing bounding box based on production line (must bigger than carton)
 2. Detect 'carton' only inside bounding box
 3. If 'carton' detected, +1 for related production line
+
+
+ALGORITMA
+1. RTSP Camera
+2. Frame Capture
+3. ROI Cropping
+4. Resize (640x640 / YOLO auto)
+5. YOLO Detection
+6. Tracking (ID per object)
+7. Line Crossing Logic
+8. Counter + Output
+
+PARAMETER UTAMA
+RTSP_URL = "rtsp://user:pass@ip:554/Streaming/Channels/101"
+
+ROI_X1, ROI_Y1 = 500, 180  
+ROI_X2, ROI_Y2 = 780, 650
+
+LINE_Y = 430
+
+LINE_A = 400  
+LINE_B = 460
+
+CONF_THRES = 0.4  
+IOU_THRES = 0.5
+
+CAPTURE STREAM
+cap = cv2.VideoCapture(RTSP_URL)  
+cap.set(cv2.CAP_PROP_BUFFERSIZE, 1)
