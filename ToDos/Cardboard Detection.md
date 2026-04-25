@@ -116,7 +116,16 @@ Check kagle/collabs
 
 
 new dataset:
-https://universe.roboflow.com/pack-ikr0x/pack-45606/dataset/1
+https://universe.roboflow.com/pack-ikr0x/pack-45606/dataset/3
+https://universe.roboflow.com/trucktest/carton_box_detection-zx1jg/dataset/4
+!pip install roboflow
+
+from roboflow import Roboflow
+rf = Roboflow(api_key="hofwlCVIHMg0XAnlQWv6")
+project = rf.workspace("trucktest").project("carton_box_detection-zx1jg")
+version = project.version(4)
+dataset = version.download("yolov11")
+                
 
 !pip install roboflow
 
@@ -153,18 +162,18 @@ Algorithm
 3. If 'carton' detected, +1 for related production line
 
 
-ALGORITMA
+Algorithm
 1. RTSP Camera
 2. Frame Capture
 3. ROI Cropping
 4. Resize (640x640 / YOLO auto)
-5. YOLO Detection
+5. YOLO Detection With YoloV8n
 6. Tracking (ID per object)
 7. Line Crossing Logic
 8. Counter + Output
 
 PARAMETER UTAMA
-RTSP_URL = "rtsp://user:pass@ip:554/Streaming/Channels/101"
+RTSP_URL = "rtsp://admin:Admin123@ip:554/Streaming/Channels/1701"
 
 ROI_X1, ROI_Y1 = 500, 180  
 ROI_X2, ROI_Y2 = 780, 650
