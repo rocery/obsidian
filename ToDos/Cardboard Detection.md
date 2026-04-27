@@ -118,6 +118,10 @@ Check kagle/collabs
 new dataset:
 https://universe.roboflow.com/pack-ikr0x/pack-45606/dataset/3
 https://universe.roboflow.com/trucktest/carton_box_detection-zx1jg/dataset/4
+https://universe.roboflow.com/cartonboxsegmentbasedonlcd/carton_box_seg_based_on_scd/dataset/10
+https://universe.roboflow.com/university-jcgmz/box-lscd-nbcoj/dataset/12
+
+
 !pip install roboflow
 
 from roboflow import Roboflow
