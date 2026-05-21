@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ToDos/Claude.md",
+                "file": "ToDos/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Claude"
+              "title": "Untitled"
             }
           }
         ]
@@ -143,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ToDos/Claude.md",
+                "file": "ToDos/Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Claude"
+              "title": "Outline of Untitled"
             }
           }
         ],
@@ -173,8 +173,12 @@
   },
   "active": "b36b4ae741692b2b",
   "lastOpenFiles": [
-    "ToDos/Cardboard Detection.md",
     "ToDos/Claude.md",
+    "ToDos/Untitled.md",
+    "ToDos/!ToDos.md",
+    "ToDos/Barcode Scanner.md",
+    "ToDos/Barcode to DXF.md",
+    "ToDos/Cardboard Detection.md",
     "Untitled 2.base",
     "Untitled 1.canvas",
     "Untitled 1.base",
@@ -183,7 +187,6 @@
     "2026-01-12.md",
     "Excalidraw/Drawing 2026-01-12 15.28.03.excalidraw.md",
     "Untitled.canvas",
-    "ToDos/!ToDos.md",
     "Excalidraw/Flow Chart_Sensor Suhu Ruang dan Kelembapan.excalidraw.md",
     "Excalidraw/Drawing 2025-12-31 13.25.28.excalidraw.md",
     "Games/STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Sensor Suhu Ruangan dan RH.md",
@@ -217,9 +220,6 @@
     "Games/STT/WO.md",
     "Games/STT/Maintenance.md",
     "Games/STT/SQL.md",
-    "ToDos/Barcode to DXF.md",
-    "ToDos/Barcode Scanner.md",
-    "Games/Wait List.md",
-    "README.md"
+    "Games/Wait List.md"
   ]
 }
