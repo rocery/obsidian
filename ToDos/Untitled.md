@@ -1,9 +1,16 @@
 usb_orlan
-"tJr*5k8gV7<$3]^mHu"
+gRzBICEHbTp!qL2)
+SSH: LoG69zma@dQ
 
 it_bekasi
-_Yi5V5$8e6\%znj#r/
+X$cQSEKHGabb)sv9
 
+curl -X POST "http://192.168.10.223/hriapi/mailersend.php" \
+-H "Content-Type: application/x-www-form-urlencoded" \
+-d "api_key=HRI_SECRET_2026" \
+-d "to=sastra@sttbekasi.com" \
+-d "subject=Test Email HRI" \
+-d "body=<h1>Email Test</h1><p>Email berhasil dikirim dari API HRI.</p>"
 
 BAGIAN 1: Instalasi Gitea di Server 225 (Debian)
 1.1 Persiapan Server
