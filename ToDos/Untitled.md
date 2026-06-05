@@ -3,7 +3,7 @@ gRzBICEHbTp!qL2)
 SSH: LoG69zma@dQ
 
 it_bekasi
-X$cQSEKHGabb)sv9
+Itbek4sioke!
 
 curl -X POST "http://192.168.10.223/hriapi/mailersend.php" \
 -H "Content-Type: application/x-www-form-urlencoded" \
