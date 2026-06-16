@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Games/-- List Game in Drive.md",
+                "file": "Games/Played.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "-- List Game in Drive"
+              "title": "Played"
             }
           }
         ]
@@ -114,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Games/-- List Game in Drive.md",
+                "file": "Games/Played.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from -- List Game in Drive"
+              "title": "Outgoing links from Played"
             }
           },
           {
@@ -173,10 +173,11 @@
   },
   "active": "b36b4ae741692b2b",
   "lastOpenFiles": [
-    "Games/Wait List.md",
+    "Games/-- 100 %.md",
+    "Games/-- List Game in Online Account.md",
     "Games/-- List Game in Drive.md",
+    "Games/Wait List.md",
     "Games/Played.md",
-    "Games/--100.md",
     "STT/Maintenance.md",
     "ToDos/Untitled.md",
     "ToDos/Claude.md",
@@ -219,7 +220,6 @@
     "Games/STT/IoT/Counter Hit.md",
     "Games/STT/IoT/Downtime.md",
     "Games/STT/IoT/Tools - Component.md",
-    "Games/STT/IoT/Oven.md",
-    "Games/STT/to Do.md"
+    "Games/STT/IoT/Oven.md"
   ]
 }
