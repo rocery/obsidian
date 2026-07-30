@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Games/-- List Game in Online Account.md",
+                "file": "STT/IoT/Downtime.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "-- List Game in Online Account"
+              "title": "Downtime"
             }
           }
         ]
@@ -114,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Games/-- List Game in Online Account.md",
+                "file": "STT/IoT/Downtime.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from -- List Game in Online Account"
+              "title": "Outgoing links from Downtime"
             }
           },
           {
@@ -167,12 +167,12 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "command-palette:Open command palette": false
     }
   },
   "active": "b36b4ae741692b2b",
   "lastOpenFiles": [
+    "Games/-- List Game in Online Account.md",
     "Games/-- List Game in Drive.md",
     "Games/-- 100 %.md",
     "ToDos/Claude.md",
@@ -183,7 +183,6 @@
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Images/Flow_Chart.png",
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Images/Diagram Elektronik.png",
     "STT/IoT/Counter Hit.md",
-    "Games/-- List Game in Online Account.md",
     "ToDos/Barcode to DXF.md",
     "Games/Played.md",
     "Games/Wait List.md",
