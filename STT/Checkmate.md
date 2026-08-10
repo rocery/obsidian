@@ -20,6 +20,7 @@ open host
 # Monitoring Agent Checkmate
 mkdir capture
 cd capture
+openssl rand -hex 32
 nano compose.yml
 ```
 services:
@@ -40,3 +41,4 @@ services:
 docker compose up -d
 sudo ufw allow 59232/tcp
 Infrastructure -> http://192.168.10.50:59232 /api/v1/metrics or /health
+docker logs capture
