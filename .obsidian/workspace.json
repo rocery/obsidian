@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STT/Checkmate.md",
+                "file": "STT/Install Ulang Linux.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Checkmate"
+              "title": "Install Ulang Linux"
             }
           }
         ]
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STT/Checkmate.md",
+                "file": "STT/Install Ulang Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -174,11 +174,12 @@
   },
   "active": "b36b4ae741692b2b",
   "lastOpenFiles": [
+    "STT/Checkmate.md",
+    "STT/Install Ulang Linux.md",
     "Untitled 3.base",
     "Untitled.canvas",
     "Untitled 2.base",
     "Untitled 1.base",
-    "STT/Checkmate.md",
     "STT/IoT/Downtime.md",
     "Games/-- List Game in Online Account.md",
     "Games/-- List Game in Drive.md",
