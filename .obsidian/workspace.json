@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Motor Tools.md",
+                "file": "STT/to Do.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Motor Tools"
+              "title": "to Do"
             }
           }
         ]
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Motor Tools.md",
+                "file": "STT/to Do.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -173,10 +173,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b36b4ae741692b2b",
+  "active": "5a6af1fab69ffa24",
   "lastOpenFiles": [
-    "STT/Install Ulang Linux.md",
+    "STT/Images/color.png",
+    "STT/Images/Midnight Blue 2.png",
+    "STT/Images/silver2.png",
+    "STT/Images/Silver.png",
+    "STT/Images/Midnight Blue.png",
+    "STT/Images/New folder",
     "Notes/Motor Tools.md",
+    "STT/Install Ulang Linux.md",
     "Notes",
     "STT/to Do.md",
     "STT/Standarisasi Laptop.md",
@@ -211,17 +217,11 @@
     "Excalidraw/Drawing 2026-01-12 15.28.03.excalidraw.md",
     "Excalidraw/Flow Chart_Sensor Suhu Ruang dan Kelembapan.excalidraw.md",
     "Excalidraw/Drawing 2025-12-31 13.25.28.excalidraw.md",
-    "Games/STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Sensor Suhu Ruangan dan RH.md",
     "Games/STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Images/Tampilan Depan.jpeg",
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Images/WhatsApp Image 2025-12-17 at 10.48.27.jpeg",
-    "Games/STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Images/Instalasi/Tiang Besi.jpeg",
-    "Games/STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Images/Instalasi/Tembok.jpeg",
-    "Games/STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Images/Instalasi/Gipsum.jpeg",
-    "Games/STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Images/Instalasi/Kayu.jpeg",
     "Games/STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Example/TOTALAN - SURAT PERNYATAAN.pdf",
     "Games/STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Example/TOTALAN - MANUAL BOOK USER.pdf",
     "Games/STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Example/TOTALAN - MANUAL BOOK DEVE .pdf",
-    "Games/STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Example/TOTALAN - BA.pdf",
-    "Games/STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Example"
+    "Games/STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Example/TOTALAN - BA.pdf"
   ]
 }
