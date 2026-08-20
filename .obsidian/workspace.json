@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STT/IoT/Downtime.md",
+                "file": "STT/Install Ulang Linux.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Downtime"
+              "title": "Install Ulang Linux"
             }
           }
         ]
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STT/IoT/Downtime.md",
+                "file": "STT/Install Ulang Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -174,6 +174,7 @@
   },
   "active": "b36b4ae741692b2b",
   "lastOpenFiles": [
+    "STT/IoT/Downtime.md",
     "STT/to Do.md",
     "STT/Images/color.png",
     "STT/Images/Midnight Blue 2.png",
@@ -194,7 +195,6 @@
     "Untitled 1.base",
     "Untitled 2.base",
     "Untitled 3.base",
-    "STT/IoT/Downtime.md",
     "Games/-- List Game in Online Account.md",
     "Games/-- List Game in Drive.md",
     "Games/-- 100 %.md",
