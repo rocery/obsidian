@@ -106,3 +106,79 @@ return new class extends Migration
 };
 ```
 
+# Membuat CRUD
+
+1. Buat Model
+```
+php artisan make:model DataSuhu
+
+app/Models/DataSuhu.php
+
+<?php
+namespace App\Models;
+use Illuminate\Database\Eloquent\Model;
+class DataSuhu extends Model
+{
+    protected $table = 'data_suhu';
+    protected $connection = 'mysql';
+    public $timestamps = false;
+    protected $fillable = [
+        'device_id',
+        'device_name',
+        'temperature',
+        'humidity',
+        'date',
+        'ip_address',
+    ];
+}
+
+php artisan tinker
+App\Models\DataSuhu::count();
+```
+2. Buat Filament Resource
+```
+php artisan make:filament-resource DataSuhu
+<?php
+namespace App\Filament\Resources\DataSuhus\Tables;
+use Filament\Tables\Columns\TextColumn;
+use Filament\Tables\Table;
+
+class DataSuhusTable
+{
+    public static function configure(Table $table): Table
+    {
+        return $table
+            ->columns([
+                TextColumn::make('device_id')
+                    ->searchable()
+                    ->sortable(),
+
+                TextColumn::make('device_name')
+                    ->searchable()
+                    ->sortable(),
+
+                TextColumn::make('temperature')
+                    ->sortable(),
+
+                TextColumn::make('humidity')
+                    ->sortable(),
+
+                TextColumn::make('date')
+                    ->dateTime()
+                    ->sortable(),
+
+                TextColumn::make('ip_address')
+                    ->searchable(),
+            ])
+            ->filters([
+                //
+            ])
+            ->recordActions([
+                //
+            ])
+            ->toolbarActions([
+                //
+            ]);
+    }
+}
+```
