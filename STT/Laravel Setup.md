@@ -182,3 +182,8 @@ class DataSuhusTable
     }
 }
 ```
+
+
+
+# Untuk pengelompokan group
+protected static UnitEnum|string|null $navigationGroup = 'Suhu Ruang';
