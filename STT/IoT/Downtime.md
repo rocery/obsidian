@@ -13,3 +13,10 @@ PCB -
 JST 4 - 
 JST 2 - 
 Adaptor - 
+
+
+E18-D80PK - https://tk.tokopedia.com/ZSqDpqrM8/
+ESP32 ESP-32 DOIT - https://tk.tokopedia.com/ZSqDp7US1/
+ESP8266 CH340 - https://tk.tokopedia.com/ZSqDpquh1/
+Box x6 - https://tk.tokopedia.com/ZSqDpgL5e/
+PCB - Single 7x9CM - https://tk.tokopedia.com/ZSqDpnsRx/

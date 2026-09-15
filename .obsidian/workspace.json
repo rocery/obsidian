@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STT/Laravel Setup.md",
+                "file": "STT/Counter Hit Conveyor.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Laravel Setup"
+              "title": "Counter Hit Conveyor"
             }
           }
         ],
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STT/Laravel Setup.md",
+                "file": "STT/Counter Hit Conveyor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -204,9 +204,11 @@
   "active": "b619359107ceefb3",
   "lastOpenFiles": [
     "STT/IoT/Downtime.md",
+    "STT/Counter Hit Conveyor.md",
+    "STT/IoT/Counter Hit.md",
+    "STT/Install Ulang Linux.md",
     "STT/Laravel Setup.md",
     "STT/Checkmate.md",
-    "STT/Install Ulang Linux.md",
     "STT/to Do.md",
     "STT/Images/color.png",
     "STT/Images/Midnight Blue 2.png",
@@ -235,7 +237,6 @@
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Images/Install_Library.png",
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Images/Flow_Chart.png",
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Images/Diagram Elektronik.png",
-    "STT/IoT/Counter Hit.md",
     "ToDos/Barcode to DXF.md",
     "Games/Played.md",
     "Games/Wait List.md",
@@ -245,7 +246,6 @@
     "STT/Images/Form Checklist Gorengan dan Molen Kerupuk.png",
     "Excalidraw/Drawing 2026-01-12 15.28.03.excalidraw.md",
     "Excalidraw/Flow Chart_Sensor Suhu Ruang dan Kelembapan.excalidraw.md",
-    "Excalidraw/Drawing 2025-12-31 13.25.28.excalidraw.md",
     "Games/STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Images/Tampilan Depan.jpeg",
     "Games/STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Example/TOTALAN - SURAT PERNYATAAN.pdf",
     "Games/STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Example/TOTALAN - MANUAL BOOK USER.pdf",
