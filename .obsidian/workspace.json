@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STT/Counter Hit Conveyor.md",
+                "file": "Notes/Pyenv.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Counter Hit Conveyor"
+              "title": "Pyenv"
             }
           }
         ],
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STT/Counter Hit Conveyor.md",
+                "file": "Notes/Pyenv.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -192,7 +192,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:New drawing": false,
       "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -204,11 +203,13 @@
   },
   "active": "b619359107ceefb3",
   "lastOpenFiles": [
-    "STT/IoT/Downtime.md",
+    "STT/Laravel Setup.md",
+    "Notes/Pyenv.md",
+    "Notes/Motor Tools.md",
     "STT/Counter Hit Conveyor.md",
+    "STT/IoT/Downtime.md",
     "STT/IoT/Counter Hit.md",
     "STT/Install Ulang Linux.md",
-    "STT/Laravel Setup.md",
     "STT/Checkmate.md",
     "STT/to Do.md",
     "STT/Images/color.png",
@@ -217,7 +218,6 @@
     "STT/Images/Silver.png",
     "STT/Images/Midnight Blue.png",
     "STT/Images/New folder",
-    "Notes/Motor Tools.md",
     "Notes",
     "STT/Standarisasi Laptop.md",
     "STT/SQL.md",
@@ -246,7 +246,6 @@
     "Untitled 1.canvas",
     "STT/Images/Form Checklist Gorengan dan Molen Kerupuk.png",
     "Excalidraw/Drawing 2026-01-12 15.28.03.excalidraw.md",
-    "Excalidraw/Flow Chart_Sensor Suhu Ruang dan Kelembapan.excalidraw.md",
     "Games/STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Images/Tampilan Depan.jpeg",
     "Games/STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Example/TOTALAN - SURAT PERNYATAAN.pdf",
     "Games/STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Example/TOTALAN - MANUAL BOOK USER.pdf",
