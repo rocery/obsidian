@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STT/IoT/Tools - Component.md",
+                "file": "STT/Random Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tools - Component"
+              "title": "Random Notes"
             }
           }
         ],
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STT/IoT/Tools - Component.md",
+                "file": "STT/Random Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -203,6 +203,9 @@
   },
   "active": "b619359107ceefb3",
   "lastOpenFiles": [
+    "STT/WO.md",
+    "STT/Random Notes.md",
+    "STT/IoT/Tools - Component.md",
     "STT/Laravel Setup.md",
     "Notes/Pyenv.md",
     "Notes/Motor Tools.md",
@@ -241,11 +244,8 @@
     "ToDos/Barcode to DXF.md",
     "Games/Played.md",
     "Games/Wait List.md",
-    "STT/Maintenance.md",
-    "ToDos/Untitled.md",
     "Untitled 1.canvas",
     "STT/Images/Form Checklist Gorengan dan Molen Kerupuk.png",
-    "Excalidraw/Drawing 2026-01-12 15.28.03.excalidraw.md",
     "Games/STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Images/Tampilan Depan.jpeg",
     "Games/STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Example/TOTALAN - SURAT PERNYATAAN.pdf",
     "Games/STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Example/TOTALAN - MANUAL BOOK USER.pdf",
