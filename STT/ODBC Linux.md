@@ -48,10 +48,23 @@ sudo nano /etc/freetds/freetds.conf
 tsql -S dblive -U user -P password
 isql -v dblive user passowrd
 odbcinst -q -d
+
+- Test PHP
+php -r '$c = odbc_connect("dblive","dba","apple"); var_dump($c);'
+If the result `resource`/`object(Odbc\Connection)` it'r working
 ```
 SQL Anywhere 17:
 ```
 Download file sqla17_client_linux_x86x64.tar.gz
 tar -xzf sqla17_client_linux_x86x64.tar.gz
 cd client17011
+sudo ./setup -nogui
+Choose default option, don't make custom config while instalation progress
+
+Add library to linker, important for php-fpm 
+echo /opt/sqlanywhere17/lib64 | sudo tee /etc/ld.so.conf.d/sqlanywhere17.conf
+sudo ldconfig
+ldd /opt/sqlanywhere17/lib64/libdbodbc17_r.so | grep "not found"
+
+
 ```
