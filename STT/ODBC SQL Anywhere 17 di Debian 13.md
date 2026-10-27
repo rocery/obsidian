@@ -17,23 +17,25 @@ sudo apt install -y tdsodbc freetds-bin freetds-common
 ### Client SQL Anywhere 17 (driver native)
 
 ```
+Download SQLAnywhere 17 (Pilih 1):
+https://drive.google.com/file/d/1oRiKRpHPgUbp1RFERgA0eZR_LAAWqw6e/view?usp=sharing (recomended)
+atau:
+https://github.com/rocery/sqlanywhere17
 
+copy filke sqla17_client_linux_x86x64.tar.gz ke server
+
+sudo ./setup -nogui setelah menjalankan shell ini, instalasi driver dijalankan.
+Set value instalasi secara default
 ```
 
 ```bash
 tar xzf sqla17_client_linux_x86x64.tar.gz
 cd client17011/
 sudo ./setup -nogui          # default: /opt/sqlanywhere17
+
 echo /opt/sqlanywhere17/lib64 | sudo tee /etc/ld.so.conf.d/sqlanywhere17.conf
 sudo ldconfig
 ldd /opt/sqlanywhere17/lib64/libdbodbc17_r.so | grep "not found"
-```
-```bash
-Link Download SQLAnywhere 17 (Pilih 1): https://drive.google.com/file/d/1oRiKRpHPgUbp1RFERgA0eZR_LAAWqw6e/view?usp=sharing
-
-https://github.com/rocery/sqlanywhere17
-
-Setelah sudo ./setup -nogui dijalankan, set instalasi default
 ```
 Jika `libtinfo.so.5` hilang:
 
@@ -70,19 +72,25 @@ Password = <password>
 CommLinks = tcpip(host=IP_SERVER_DB;port=2638)
 ```
 
-Entri FreeTDS lama di-comment. Opsi `TDS_Version`, `TextSize`, `AnsiNPW`, dan `QuotedId` tidak dipakai lagi.
+Jika ada, entri FreeTDS lama di-comment. Opsi `TDS_Version`, `TextSize`, `AnsiNPW`, dan `QuotedId` tidak dipakai lagi.
 
 ### Environment (kunci utama)
 
 Driver SQL Anywhere tidak membaca `/etc/odbc.ini` tanpa `ODBCINI`. Tanpa itu muncul error `DSN 'dblive' does not exist`.
 
-|Konteks|Tempat set|
-|---|---|
-|Shell semua user|`/etc/profile.d/odbcini.sh` berisi `export ODBCINI=/etc/odbc.ini`, plus `source /opt/sqlanywhere17/bin64/sa_config.sh`|
-|Apache mod_php (PHP 5.6)|`/etc/apache2/envvars`|
-|php-fpm 8.5 / 8.2|`/etc/php/<versi>/fpm/pool.d/www.conf`|
+| Konteks                  | Tempat set                                                                                                              |
+| ------------------------ | ----------------------------------------------------------------------------------------------------------------------- |
+| Shell semua user         | `/etc/profile.d/odbcini.sh` berisi `export ODBCINI=/etc/odbc.ini`, plus `source /opt/sqlanywhere17/bin64/sa_config.sh`. |
+| Apache mod_php (PHP 5.6) | `/etc/apache2/envvars`                                                                                                  |
+| php-fpm 8.5 / 8.2        | `/etc/php/<versi>/fpm/pool.d/www.conf`                                                                                  |
+|                          |                                                                                                                         |
+Shell user:
 
-Isi untuk Apache `envvars`:
+```bash
+echo 'export ODBCINI=/etc/odbc.ini' | sudo tee /etc/profile.d/odbcini.sh
+```
+
+Isi untuk Apache `envvars` dibaris paling bawah:
 
 ```bash
 export ODBCINI=/etc/odbc.ini
@@ -90,9 +98,9 @@ export SQLANY17=/opt/sqlanywhere17
 export LD_LIBRARY_PATH=/opt/sqlanywhere17/lib64
 ```
 
-Isi untuk pool php-fpm:
+Isi untuk pool php-fpm Isi untuk Apache `envvars` dibaris paling bawah:
 
-```ini
+```bash
 env[ODBCINI] = /etc/odbc.ini
 env[SQLANY17] = /opt/sqlanywhere17
 env[LD_LIBRARY_PATH] = /opt/sqlanywhere17/lib64
@@ -103,7 +111,7 @@ Lalu `sudo systemctl restart apache2` atau `php<versi>-fpm`. Harus restart, buka
 ### Catatan per versi PHP
 
 - **PHP 5.6**: dilayani lewat mod_php (`php5_module`), sehingga `php5.6-fpm` tidak dipakai. Edit `/etc/apache2/envvars`, bukan `www.conf`.
-- **PHP 8.5**: php-fpm untuk nginx (bupot).
+- **PHP 8.5**: php-fpm untuk apache2.
 - **PHP 8.2**: server test, `php8.2-fpm` atau Apache sesuai setup.
 
 ## 3. Tes
