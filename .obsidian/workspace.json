@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STT/ODBC Linux.md",
+                "file": "STT/ODBC SQL Anywhere 17 di Debian 13.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ODBC Linux"
+              "title": "ODBC SQL Anywhere 17 di Debian 13"
             }
           }
         ],
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STT/ODBC Linux.md",
+                "file": "STT/ODBC SQL Anywhere 17 di Debian 13.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -203,8 +203,9 @@
   },
   "active": "b619359107ceefb3",
   "lastOpenFiles": [
-    "STT/counter camera.md",
     "STT/ODBC Linux.md",
+    "STT/ODBC SQL Anywhere 17 di Debian 13.md",
+    "STT/counter camera.md",
     "STT/Random Notes.md",
     "STT/WO.md",
     "STT/IoT/Tools - Component.md",
@@ -243,7 +244,6 @@
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Images/Install_Library.png",
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Images/Flow_Chart.png",
     "STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Images/Diagram Elektronik.png",
-    "ToDos/Barcode to DXF.md",
     "Untitled 1.canvas",
     "STT/Images/Form Checklist Gorengan dan Molen Kerupuk.png",
     "Games/STT/IoT/Apresiasi/Sensor Suhu Ruang dan Kelembapan/Images/Tampilan Depan.jpeg",

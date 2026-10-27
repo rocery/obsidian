@@ -65,6 +65,10 @@ Add library to linker, important for php-fpm
 echo /opt/sqlanywhere17/lib64 | sudo tee /etc/ld.so.conf.d/sqlanywhere17.conf
 sudo ldconfig
 ldd /opt/sqlanywhere17/lib64/libdbodbc17_r.so | grep "not found"
+if "not found" install libtinfo and libncurses
 
-
+Add driver to /etc/odbcinst.ini
+[SQL Anywhere 17]
+Description = SQL Anywhere 17 native
+Driver = /opt/sqlanywhere17/lib64/libdbodbc17_r.so
 ```
