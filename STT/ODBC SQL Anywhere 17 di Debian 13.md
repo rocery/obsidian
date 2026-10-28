@@ -16,7 +16,7 @@ sudo apt install -y tdsodbc freetds-bin freetds-common
 
 ### Client SQL Anywhere 17 (driver native)
 
-```
+```bash
 Download SQLAnywhere 17 (Pilih 1):
 https://drive.google.com/file/d/1oRiKRpHPgUbp1RFERgA0eZR_LAAWqw6e/view?usp=sharing (recomended)
 atau:
@@ -83,8 +83,8 @@ Driver SQL Anywhere tidak membaca `/etc/odbc.ini` tanpa `ODBCINI`. Tanpa itu mun
 | Shell semua user         | `/etc/profile.d/odbcini.sh` berisi `export ODBCINI=/etc/odbc.ini`, plus `source /opt/sqlanywhere17/bin64/sa_config.sh`. |
 | Apache mod_php (PHP 5.6) | `/etc/apache2/envvars`                                                                                                  |
 | php-fpm 8.5 / 8.2        | `/etc/php/<versi>/fpm/pool.d/www.conf`                                                                                  |
-|                          |                                                                                                                         |
-Shell user:
+
+Shell user, jalankan:
 
 ```bash
 echo 'export ODBCINI=/etc/odbc.ini' | sudo tee /etc/profile.d/odbcini.sh
@@ -92,7 +92,7 @@ echo 'export ODBCINI=/etc/odbc.ini' | sudo tee /etc/profile.d/odbcini.sh
 
 Isi untuk Apache `envvars` dibaris paling bawah:
 
-```bash
+```ini
 export ODBCINI=/etc/odbc.ini
 export SQLANY17=/opt/sqlanywhere17
 export LD_LIBRARY_PATH=/opt/sqlanywhere17/lib64
@@ -100,7 +100,7 @@ export LD_LIBRARY_PATH=/opt/sqlanywhere17/lib64
 
 Isi untuk pool php-fpm Isi untuk Apache `envvars` dibaris paling bawah:
 
-```bash
+```ini
 env[ODBCINI] = /etc/odbc.ini
 env[SQLANY17] = /opt/sqlanywhere17
 env[LD_LIBRARY_PATH] = /opt/sqlanywhere17/lib64
@@ -110,9 +110,8 @@ Lalu `sudo systemctl restart apache2` atau `php<versi>-fpm`. Harus restart, buka
 
 ### Catatan per versi PHP
 
-- **PHP 5.6**: dilayani lewat mod_php (`php5_module`), sehingga `php5.6-fpm` tidak dipakai. Edit `/etc/apache2/envvars`, bukan `www.conf`.
-- **PHP 8.5**: php-fpm untuk apache2.
-- **PHP 8.2**: server test, `php8.2-fpm` atau Apache sesuai setup.
+- **PHP 5.6**: dilayani lewat mod_php (`php5_module`), sehingga `php5.6-fpm` tidak dipakai. Edit: `sudo nano /etc/apache2/envvars`, bukan `www.conf`.
+- **PHP 8++**: php-fpm untuk apache2. Edit: `sudo nano /etc/php/<versi>/fpm/pool.d/www.conf`
 
 ## 3. Tes
 
