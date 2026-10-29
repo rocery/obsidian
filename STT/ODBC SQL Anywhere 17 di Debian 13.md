@@ -1,6 +1,6 @@
 # ODBC SQL Anywhere 17 di Debian 13
 
-Lingkungan: Debian 13 (Trixie), Apache2, PHP 5.6 (mod_php), PHP 8.5 (php-fpm + apache2), PHP 8.2 (server test).
+Env: Debian 13 (Trixie), Apache2, PHP 5.6 (mod_php), PHP 8.5 (php-fpm + apache2), PHP 8.2 (server test).
 
 ## 1. Install
 
@@ -22,7 +22,7 @@ https://drive.google.com/file/d/1oRiKRpHPgUbp1RFERgA0eZR_LAAWqw6e/view?usp=shari
 atau:
 https://github.com/rocery/sqlanywhere17
 
-copy filke sqla17_client_linux_x86x64.tar.gz ke server
+copy file sqla17_client_linux_x86x64.tar.gz ke server
 
 sudo ./setup -nogui setelah menjalankan shell ini, instalasi driver dijalankan.
 Set value instalasi secara default
@@ -50,7 +50,7 @@ sudo apt install -y php8.x-odbc          # 8.x
 sudo apt install -y php5.6-odbc          # 5.6 (repo sury)
 ```
 
-## 2. Konfigurasi
+	## 2. Konfigurasi
 
 ### /etc/odbcinst.ini
 
@@ -95,7 +95,9 @@ Isi untuk Apache `envvars` dibaris paling bawah:
 ```ini
 export ODBCINI=/etc/odbc.ini
 export SQLANY17=/opt/sqlanywhere17
+#export LD_LIBRARY_PATH=/usr/lib/x86_64-linux-gnu:/opt/sqlanywhere17/lib64
 export LD_LIBRARY_PATH=/opt/sqlanywhere17/lib64
+export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libodbcinst.so.2
 ```
 
 Isi untuk pool php-fpm Isi untuk Apache `envvars` dibaris paling bawah:
