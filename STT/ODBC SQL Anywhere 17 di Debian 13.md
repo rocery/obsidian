@@ -50,7 +50,7 @@ sudo apt install -y php8.x-odbc          # 8.x
 sudo apt install -y php5.6-odbc          # 5.6 (repo sury)
 ```
 
-	## 2. Konfigurasi
+## 2. Konfigurasi
 
 ### /etc/odbcinst.ini
 
