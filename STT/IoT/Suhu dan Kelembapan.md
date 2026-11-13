@@ -27,3 +27,10 @@ https://tk.tokopedia.com/ZSDh5V2TG/
 
 2x SINGLE PCB 7x9
 https://tk.tokopedia.com/ZSDna1vdX/
+
+
+
+
+ESP32
+https://tk.tokopedia.com/ZSpQU7TyV/
+
