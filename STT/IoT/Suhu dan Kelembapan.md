@@ -32,5 +32,38 @@ https://tk.tokopedia.com/ZSDna1vdX/
 
 
 ESP32
-https://tk.tokopedia.com/ZSpQU7TyV/
+https://tk.tokopedia.com/ZSpQU7TyV/ 115000
+
+Sensor SHT30 I2C
+https://tk.tokopedia.com/ZSppjyeA1/ 161500
+
+Resistor 4.7K
+https://tk.tokopedia.com/ZSppjPFX3/ 2x3500 = 7000
+
+Box x4
+https://tk.tokopedia.com/ZSppjrj9v/ 9500
+
+LCD
+https://tk.tokopedia.com/ZSppB9a5c/ 39500
+
+Adaptor 12V
+https://tk.tokopedia.com/ZSpp6hCNH/ 35000
+
+XL4015
+https://tk.tokopedia.com/ZSppjxCq5/ 14000
+
+Heat Shrink Tube
+https://tk.tokopedia.com/ZSppMGyU3/ 5x1500 = 7500
+
+Pin Header Female
+https://tk.tokopedia.com/ZSpprLGJM/ 4x1400 = 5600
+
+Dextone
+https://tk.tokopedia.com/ZSppMTYkq/ 19500
+
+Frame LCD 16x2
+https://tk.tokopedia.com/ZSppAdToU/ 13500
+
+DHT21 AM2301
+https://tk.tokopedia.com/ZSppr5K8p/ 52000
 
