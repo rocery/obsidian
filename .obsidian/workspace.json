@@ -8,49 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b36b4ae741692b2b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STT/Install Ulang Linux.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Install Ulang Linux"
-            }
-          },
-          {
-            "id": "98caedb71b342989",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STT/Laravel Setup.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Laravel Setup"
-            }
-          },
-          {
             "id": "b619359107ceefb3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STT/IoT/Suhu dan Kelembapan.md",
+                "file": "STT/IoT/Downtime.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Suhu dan Kelembapan"
+              "title": "Downtime"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -145,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STT/IoT/Suhu dan Kelembapan.md",
+                "file": "STT/IoT/Downtime.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -192,41 +163,41 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:New drawing": false,
       "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "command-palette:Open command palette": false
     }
   },
   "active": "b619359107ceefb3",
   "lastOpenFiles": [
+    "STT/IoT/Suhu dan Kelembapan.md",
+    "Untitled.base",
+    "STT/!Random Notes.md",
+    "2026-01-12.md",
+    "STT/ODBC SQL Anywhere 17 di Debian 13.md",
+    "STT/counter camera.md",
+    "ToDos/!ToDos.md",
     "STT/Random Notes.md",
     "STT/SQL.md",
-    "STT/Standarisasi Laptop.md",
-    "STT/ODBC SQL Anywhere 17 di Debian 13.md",
-    "STT/ODBC Linux.md",
-    "STT/Laravel Setup.md",
-    "STT/Install Ulang Linux.md",
-    "STT/counter camera.md",
-    "STT/Checkmate.md",
-    "STT/!Random Notes.md",
-    "Untitled.base",
-    "README.md",
-    "2026-01-12.md",
-    "Notes/Pyenv.md",
-    "ToDos/!ToDos.md",
     "ToDos/Claude.md",
     "STT/WO.md",
     "STT/to Do.md",
+    "STT/Standarisasi Laptop.md",
+    "STT/ODBC Linux.md",
     "STT/IoT/Tools - Component.md",
+    "STT/Laravel Setup.md",
+    "Notes/Pyenv.md",
     "Notes/Motor Tools.md",
     "STT/Counter Hit Conveyor.md",
     "STT/IoT/Downtime.md",
     "STT/IoT/Counter Hit.md",
+    "STT/Install Ulang Linux.md",
+    "STT/Checkmate.md",
     "STT/Images/color.png",
     "STT/Images/Midnight Blue 2.png",
     "STT/Images/silver2.png",
@@ -234,6 +205,7 @@
     "STT/Images/Midnight Blue.png",
     "STT/Images/New folder",
     "Notes",
+    "README.md",
     "Untitled.canvas",
     "Untitled 1.base",
     "Untitled 2.base",

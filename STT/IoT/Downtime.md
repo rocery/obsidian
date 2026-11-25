@@ -1,3 +1,16 @@
+[25-11-2026]
+ESP32 (1)
+Module PC817 24V (1)
+PCB 7x9 (1)
+Pin Head Female 30 Pin (2)
+LM2596 (1)
+LED (4)
+Kabel Listrik (1 Meter)
+Kabel AWG 24 (5)
+Terminal 2 (1)
+Box x5 (1)
+Adaptor 12V (1)
+
 - ESP8266 - https://tk.tokopedia.com/ZS4Yjf1jj/
 - PZEM-004T - https://tk.tokopedia.com/ZS4Y2MXXm/
 Expantion Board - https://tk.tokopedia.com/ZS4YjqtsN/
@@ -20,3 +33,5 @@ ESP32 ESP-32 DOIT - https://tk.tokopedia.com/ZSqDp7US1/
 ESP8266 CH340 - https://tk.tokopedia.com/ZSqDpquh1/
 Box x6 - https://tk.tokopedia.com/ZSqDpgL5e/
 PCB - Single 7x9CM - https://tk.tokopedia.com/ZSqDpnsRx/
+
+

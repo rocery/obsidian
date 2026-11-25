@@ -31,39 +31,39 @@ https://tk.tokopedia.com/ZSDna1vdX/
 
 
 
-ESP32
-https://tk.tokopedia.com/ZSpQU7TyV/ 115000
+1 x ESP32
+https://tk.tokopedia.com/ZSpQU7TyV/ 
 
-Sensor SHT30 I2C
-https://tk.tokopedia.com/ZSppjyeA1/ 161500
+1 x Sensor SHT30 I2C
+https://tk.tokopedia.com/ZSppjyeA1/ 
 
-Resistor 4.7K
-https://tk.tokopedia.com/ZSppjPFX3/ 2x3500 = 7000
+2 x Resistor 4.7K
+https://tk.tokopedia.com/ZSppjPFX3/ 
 
-Box x4
-https://tk.tokopedia.com/ZSppjrj9v/ 9500
+1 x Box x4
+https://tk.tokopedia.com/ZSppjrj9v/ 
 
-LCD
-https://tk.tokopedia.com/ZSppB9a5c/ 39500
+1 x LCD 16x2
+https://tk.tokopedia.com/ZSppB9a5c/ 
 
-Adaptor 12V
-https://tk.tokopedia.com/ZSpp6hCNH/ 35000
+1 x Adaptor 12V
+https://tk.tokopedia.com/ZSpp6hCNH/ 
 
-XL4015
-https://tk.tokopedia.com/ZSppjxCq5/ 14000
+1 x XL4015
+https://tk.tokopedia.com/ZSppjxCq5/ 
 
-Heat Shrink Tube
-https://tk.tokopedia.com/ZSppMGyU3/ 5x1500 = 7500
+5 x Heat Shrink Tube
+https://tk.tokopedia.com/ZSppMGyU3/ 
 
-Pin Header Female
-https://tk.tokopedia.com/ZSpprLGJM/ 4x1400 = 5600
+4 x Pin Header Female
+https://tk.tokopedia.com/ZSpprLGJM/ 
 
-Dextone
-https://tk.tokopedia.com/ZSppMTYkq/ 19500
+1 x Dextone
+https://tk.tokopedia.com/ZSppMTYkq/ 
 
-Frame LCD 16x2
-https://tk.tokopedia.com/ZSppAdToU/ 13500
+1 x Frame LCD 16x2
+https://tk.tokopedia.com/ZSppAdToU/ 
 
-DHT21 AM2301
-https://tk.tokopedia.com/ZSppr5K8p/ 52000
+1 x DHT21 AM2301
+https://tk.tokopedia.com/ZSppr5K8p/ 
 
